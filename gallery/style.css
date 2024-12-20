@@ -1,0 +1,30 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Gallery
+{
+    width: 100%;
+}
+h1
+{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.Containar
+{
+    width: 80%;
+    margin: auto;
+     display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Containar img
+{
+    height: 300px;
+    width: 32%;
+    margin-top: 20px;
+}
