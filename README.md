@@ -5,5 +5,5 @@
 </a>
 <h1> min-width</h1>
 <a href="https://frolicking-kringle-0da6ad.netlify.app/">
-  <img src="layout-Copy.png">
+  <img src="layout.png">
 </a>
