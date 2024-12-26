@@ -5,5 +5,5 @@
 </a>
 <h1> min-width</h1>
 <a href="https://symphonious-raindrop-053783.netlify.app/">
-  <img src="layout.png">
+  <img src="layout.PNG">
 </a>
