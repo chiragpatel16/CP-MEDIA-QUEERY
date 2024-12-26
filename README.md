@@ -4,6 +4,6 @@
   <img src="gallery sc.png">
 </a>
 <h1> min-width</h1>
-<a href="https://frolicking-kringle-0da6ad.netlify.app/">
+<a href="https://symphonious-raindrop-053783.netlify.app/">
   <img src="layout.png">
 </a>
