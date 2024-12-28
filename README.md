@@ -7,3 +7,6 @@
 <a href="https://symphonious-raindrop-053783.netlify.app/">
   <img src="layout.png">
 </a>
+<h2>cafe</h2>
+
+<a href="https://admirable-cactus-8f2450.netlify.app/"><img src="cafe.png"></a>
