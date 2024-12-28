@@ -1,0 +1,567 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav
+{
+    height: 100px;
+    width: 100%;
+    background-color: #F7E5D2;
+    display: flex;
+}
+.navcontainer
+{
+    height: 100px;
+    width: 95%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.logo
+{
+    height: 60px;
+    width: 10%;
+}
+.logo img
+{
+    height: 60px;
+    width: 100%;
+}
+.navcontainer ul
+{
+    display: flex;
+    list-style: none;
+}
+.navcontainer ul li
+{
+    padding: 20px;
+}
+.navcontainer ul li a
+{
+   padding-top: 20px; 
+    text-decoration: none;
+    color: black;
+}
+.banner
+{
+    height: 650px;
+    width: 100%;
+    background-image: url('images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}   
+.content1{
+    width: 40%;
+    height: 330px;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.content1 p{
+    font-size: 20px;
+    text-align: left;
+}
+.content1 h1{
+    font-size: 65px;
+    line-height: 80px;
+    margin: 20px 0;
+}
+ .content1 button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 15px 30px;
+
+}
+.content1 button:hover
+{
+    background-color:#60695D ;
+}
+.button1 button{
+    position: relative;
+     left: 20%;
+     top: -45px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 15px 30px;
+
+}
+.button1 button:hover
+{
+    background-color:#60695D ;
+}
+.box1
+{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: #60695D;
+}
+.text
+{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    top: 30px;
+}
+.block1
+{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.image1
+{
+    height: 600px;
+    width: 50%;
+}
+.image1 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox1
+{
+    height: 600px;
+    width: 50%;
+    display: flex;
+}
+.word
+{
+    position: relative;
+    left: 10%;
+    top: 40%;
+    height: 300px;
+    width: 60%;
+}
+.word h1
+{
+    position: relative;
+    font-size: 70px;
+}
+.word p
+{
+    position: relative;
+    font-size: 20px;
+    top: 7%;
+}
+.word span
+{
+    position: relative;
+    font-size: 20px;
+    top: 10%;
+}
+.button2 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 25%;
+    top: 50px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button2 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.block2
+{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.image2
+{
+    height: 600px;
+    width: 50%;
+}
+.image2 img
+{
+    height: 600px;
+    width: 100%;
+}
+.textbox2
+{
+    height: 600px;
+    width: 50%;
+    display: flex;
+}
+.word2
+{
+    position: relative;
+    left: 25%;
+    top: 40%;
+    height: 300px;
+    width: 60%;
+}
+.word2 h1
+{
+    position: relative;
+    font-size: 70px;
+}
+.word2 p
+{
+    position: relative;
+    font-size: 20px;
+    top: 7%;
+}
+.word2 span
+{
+    position: relative;
+    font-size: 20px;
+    top: 10%;
+}
+.button3 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 25%;
+    top: 50px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button3 button:hover
+{
+    position: relative;
+    color: black;
+    background-color:#60695D ;
+}
+.block3
+{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.image3
+{
+    height: 600px;
+    width: 50%;
+}
+.image3 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox3
+{
+    height: 600px;
+    width: 50%;
+    display: flex;
+}
+.word3
+{
+    position: relative;
+    left: 10%;
+    top: 40%;
+    height: 300px;
+    width: 60%;
+}
+.word3 h1
+{
+    position: relative;
+    font-size: 70px;
+}
+.word3 p
+{
+    position: relative;
+    font-size: 20px;
+    top: 7%;
+}
+.word3 span
+{
+    position: relative;
+    font-size: 20px;
+    top: 10%;
+}
+.button4 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 25%;
+    top: 50px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button4 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.drop
+{
+    height: 450px;
+    width: 100%;
+    background-color: #FBF2E8;
+}
+.drop h1
+{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    font-size: 60px;
+}
+.dropcontainer
+{
+    position: relative;
+    top: 30%;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.div1
+{
+    height: 250px;
+    width: 50%;
+    text-align: center;
+}
+.div1 h4
+{
+    position: relative;
+     top:40% ;
+}
+.div1 p
+{
+    position: relative;
+     top:45% ;
+}
+.div1 span
+{
+    position: relative;
+     top:45% ;
+}
+.div2
+{
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-left: 1px solid black;
+}
+.div2 h4
+{
+    position: relative;
+     top:40% ;
+}
+.div2 p
+{
+    position: relative;
+     top:45% ;
+}
+.div2 span
+{
+    position: relative;
+     top:45% ;
+}
+.sunday p
+{
+    position: relative;
+    top: 120px;
+    font-size: 16px;
+}
+.imagecontainer 
+{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.img1
+{
+    height: 350px;
+    width: 20%;
+}
+.img1 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img2 
+{
+    height: 350px;
+    width: 20%;
+}
+.img2 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img3
+{
+    height: 350px;
+    width: 20%;
+}
+.img3 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img4 
+{
+    height: 350px;
+    width: 20%;
+}
+.img4 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img5
+{
+    height: 350px;
+    width: 20%;
+}
+.img5 img
+{
+    height: 350px;
+    width: 100%;
+}
+footer
+{
+    height: 400px;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #60695D;
+    display: flex;
+}
+.foot1
+{
+    height: auto;
+    width: 33.33%; 
+}
+.footer1
+{
+    position: relative;
+    top: 75px;
+    height: 250px;
+    width: 55%;
+    margin: auto;
+}
+.footer1 h3
+{
+    position: relative;
+    top: 5%;
+    color: white;
+}
+.footer1 p
+{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+.footer1 span
+{
+    position: relative;
+    top: 15%;
+    color: white;
+}
+.c1 input
+{
+    position: relative;
+    top: 40px;
+    height: 56px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.c1 input:hover
+{
+    color: black;
+    background-color:white;
+    opacity: 50%;
+}
+.checkbox
+{
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.button5 button
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    top: 55px;
+    font-size: 20px;
+}
+.button5 button:hover
+{
+    position: relative;
+    color: black;
+    background-color:white;
+    opacity: 50%;
+}
+.foot2
+{
+    height: 400px;
+    width: 33.33%;
+}
+.footer2
+{
+    position: relative;
+    top: 75px;
+    height: 250px;
+    width: 55%;
+    margin: auto;
+}
+.footer2 h3
+{
+    position: relative;
+    top: 5%;
+    color: white;
+}
+.footer2 span
+{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+.footer2 p
+{
+    position: relative;
+    top: 15%;
+    color: white;
+}
+
+.foot3
+{
+    height: 400px;
+    width: 33.33%;
+    color: white;
+}
+.footer3
+{
+    position: relative;
+    top: 75px;
+    height: 250px;
+    width: 55%;
+    margin: auto;
+}
+.footer3 h3
+{
+    text-align: center;
+}
+
+

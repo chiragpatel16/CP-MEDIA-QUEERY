@@ -1,0 +1,854 @@
+@media(max-width:480px)
+{
+    nav
+    {
+        height: auto;
+        width: 100%;
+    }
+    .navcontainer
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .navcontainer ul
+   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .navcontainer ul li
+{
+    padding: 5px;
+}
+.navcontainer ul li a
+{
+     padding-top: 20px; 
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+.logo
+{
+    height: auto;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.logo img
+{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+.banner 
+ {
+      width: 100%;
+      height: 650px;
+      background-image: url('images/bg2.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: center;
+      position: static;
+      display: flex;
+      flex-direction: column;
+  }
+  .content1{
+    width: 40%;
+    height: auto;
+    background: none;
+    color: white;
+     position: absolute;
+    top: 45%;
+    left: 5%; 
+}
+ .content1 p{
+    position: relative;
+    top: 10%;
+    font-size: 15px;
+ 
+}
+.content1 h1{
+
+    font-size: 30px;
+     width: 80%;
+    margin: 20px 0px;
+}
+ .content1 button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 15px 30px;
+   
+}
+.content1 button:hover
+{
+    background-color:#60695D ;
+} 
+.button1 button{
+    position: relative;
+     left: 80%;
+     top: -45px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 15px 30px;
+
+}
+.button1 button:hover
+{
+    background-color:#60695D ;
+}
+.box1
+{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: #60695D;
+    top: -50%;
+}
+.text
+{  
+    position: relative;
+    height: 70px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    top: 30px;
+}
+.block1
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.image1
+{
+    height: 600px;
+    width: 100%;
+}
+.image1 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox1
+{
+    height: 600px;
+    width: 100%;
+}
+.word
+{
+    position: relative;
+    top: 15%;
+    height: 400px;
+    width: 70%;
+}
+.button2 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 40%;
+    top: 80px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button2 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.block2
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.image2
+{
+    height: 600px;
+    width: 100%;
+}
+.image2 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox2
+{
+    height: 600px;
+    width: 100%;
+}
+.word2
+{
+    position: relative;
+    top: 15%;
+    height: 400px;
+    width: 70%;
+}
+.button3 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 40%;
+    top: 80px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button3 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.block3
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.image3
+{
+    height: 600px;
+    width: 100%;
+}
+.image3 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox3
+{
+    height: 600px;
+    width: 100%;
+}
+.word3
+{
+    position: relative;
+    top: 15%;
+    height: 400px;
+    width: 70%;
+}
+.button4 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 40%;
+    top: 80px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button4 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.dropcontainer
+{
+    position: relative;
+    top: 30%;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.drop h1
+{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    font-size: 50px;
+}
+.div1
+{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+     flex-direction: column;
+}
+.div2
+{
+    height: 250px;
+    width: 100%;
+    text-align: center; 
+    flex-direction: column;
+}
+.sunday p
+{
+    position: relative;
+    top: 59px;
+    font-size: 16px;
+}
+.imagecontainer 
+{
+    margin-top: 15%;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img1
+{
+    height: 350px;
+    width: 50%;
+}
+.img1 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img2 
+{
+    height: 350px;
+    width: 50%;
+}
+.img2 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img3
+{
+    height: 350px;
+    width: 50%;
+}
+.img3 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img4 
+{
+    height: 350px;
+    width: 50%;
+}
+.img4 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img5
+{
+    height: 350px;
+    width: 100%;
+}
+.img5 img
+{
+    height: 350px;
+    width: 100%;
+}
+footer
+{
+    height:550px;
+    width: 100%;
+    background-color: #60695D;
+    display: flex;
+    flex-direction: column;
+}
+.foot1
+{
+    height: auto;
+    width: 100%;
+}
+.footer1
+{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin: auto;
+}
+.foot2
+{
+    height: 200px;
+    width: 100%;
+}
+.footer2
+{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+.footer2 h3
+{
+    position: relative;
+    top: 5%;
+}
+.footer2 span
+{
+    position: relative;
+    top: 10%;
+}
+.footer2 p
+{
+    position: relative;
+    top: 15%;
+} 
+.foot3
+{
+    height: 500px;
+    width: 100%;
+}
+.footer3
+{
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.footer3 h3
+{
+    text-align: center;
+}
+}
+
+@media(max-width:768px)
+{
+    nav
+    {
+        height: auto;
+        width: 100%;
+    }
+    .navcontainer
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .navcontainer ul
+   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .navcontainer ul li
+{
+    padding: 5px;
+}
+.navcontainer ul li a
+{
+     padding-top: 20px; 
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+.logo
+{
+    height: auto;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.logo img
+{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+.banner 
+ {
+      width: 100%;
+      height: 650px;
+      background-image: url('images/bg2.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: center;
+      position: static;
+      display: flex;
+      flex-direction: column;
+  }
+  .content1{
+    width: 40%;
+    height: auto;
+    background: none;
+    color: white;
+     position: absolute;
+    top: 70%;
+    left: 5%; 
+}
+ .content1 p{
+    position: relative;
+    top: 10%;
+    font-size: 15px;
+ 
+}
+.content1 h1{
+
+    font-size: 30px;
+     width: 80%;
+    margin: 20px 0px;
+}
+ .content1 button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 15px 30px;
+   
+}
+.content1 button:hover
+{
+    background-color:#60695D ;
+} 
+.button1 button{
+    position: relative;
+     left: 60%;
+     top: -45px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 15px 30px;
+
+}
+.button1 button:hover
+{
+    background-color:#60695D ;
+}
+.box1
+{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: #60695D;
+    top: -50%;
+}
+.text
+{  
+    position: relative;
+    height: 70px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    top: 30px;
+}
+.block1
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.image1
+{
+    height: 600px;
+    width: 100%;
+}
+.image1 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox1
+{
+    height: 600px;
+    width: 100%;
+}
+.word
+{
+    position: relative;
+    top: 15%;
+    height: 400px;
+    width: 70%;
+}
+.button2 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 40%;
+    top: 80px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button2 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.block2
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.image2
+{
+    height: 600px;
+    width: 100%;
+}
+.image2 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox2
+{
+    height: 600px;
+    width: 100%;
+}
+.word2
+{
+    position: relative;
+    top: 15%;
+    height: 400px;
+    width: 70%;
+}
+.word2 h1
+{
+   position: relative;
+   left: -20%;
+}
+.word2 p
+{
+    position: relative;
+    left: -20%;
+}
+.word2 span
+{
+    position: relative;
+    left: -20%;
+}
+.button3 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 40%;
+    top: 80px;
+    font-size: 20px;
+    padding: 15px;
+    left: -20%;
+}
+.button3 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.block3
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.image3
+{
+    height: 600px;
+    width: 100%;
+}
+.image3 img
+{
+       height: 600px;
+      width: 100%; 
+}
+.textbox3
+{
+    height: 600px;
+    width: 100%;
+}
+.word3
+{
+    position: relative;
+    top: 15%;
+    height: 400px;
+    width: 70%;
+}
+.button4 button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    width: 40%;
+    top: 80px;
+    font-size: 20px;
+    padding: 15px;
+}
+.button4 button:hover
+{
+    color: black;
+    background-color:#60695D ;
+}
+.dropcontainer
+{
+    position: relative;
+    top: 30%;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.drop h1
+{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    font-size: 50px;
+}
+.div1
+{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+     flex-direction: column;
+}
+.div2
+{
+    height: 250px;
+    width: 100%;
+    text-align: center; 
+    flex-direction: column;
+}
+.sunday p
+{
+    position: relative;
+    top: 59px;
+    font-size: 16px;
+}
+.imagecontainer 
+{
+    margin-top: 15%;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img1
+{
+    height: 350px;
+    width: 50%;
+}
+.img1 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img2 
+{
+    height: 350px;
+    width: 50%;
+}
+.img2 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img3
+{
+    height: 350px;
+    width: 50%;
+}
+.img3 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img4 
+{
+    height: 350px;
+    width: 50%;
+}
+.img4 img
+{
+    height: 350px;
+    width: 100%;
+}
+.img5
+{
+    height: 350px;
+    width: 100%;
+}
+.img5 img
+{
+    height: 350px;
+    width: 100%;
+}
+footer
+{
+    height:550px;
+    width: 100%;
+    background-color: #60695D;
+    display: flex;
+    flex-direction: column;
+}
+.foot1
+{
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+.footer1
+{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin: auto;
+}
+.foot2
+{
+    height: 200px;
+    width: 50%;
+    margin: auto;
+}
+.footer2
+{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+.footer2 h3
+{
+    position: relative;
+    top: 5%;
+}
+.footer2 span
+{
+    position: relative;
+    top: 10%;
+}
+.footer2 p
+{
+    position: relative;
+    top: 15%;
+} 
+.foot3
+{
+    height: 500px;
+    width: 50%;
+    margin: auto;
+}
+.footer3
+{
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+}
