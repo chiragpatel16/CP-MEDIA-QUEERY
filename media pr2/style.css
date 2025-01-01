@@ -1,0 +1,72 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.navbar
+{
+    margin: auto;
+    height: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{ 
+    height: 80px;
+    width: 10%;
+}
+.logo img
+{ 
+    margin: 10px;
+    margin-left: 25px;
+    height: 60px;
+    width: 70%;
+}
+.menu ul
+{
+    display: flex;
+    list-style: none;
+}
+.menu ul li
+{
+    margin: 20px;
+}
+.menu ul li a
+{
+     text-decoration: none;
+     color: black;
+}
+
+
+
+.list li
+{
+    display: none;
+}
+
+.drop:hover .list li
+{}
+
+
+
+
+
+.banner
+{
+    height: 850px;
+    width: 100%;
+}
+.banner img
+{
+    height: 850px;
+    width: 100%;
+}
