@@ -1,0 +1,152 @@
+@media (max-width:1200px)
+{
+
+    .slider-1
+    {
+        display: none;
+    }
+
+    .slider-2 
+    {
+        display: none;
+    }
+
+
+    .profile01
+    {
+        display: none;
+    }
+
+
+    .dashboard .options .r-1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .dashboard .options .rc-1
+    {
+        width: 22.6%;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0%;
+    }
+    .dashboard .options .rc-2
+    {
+        margin-bottom: 40px;
+        width: 22.6%;
+    }
+
+}
+
+@media (max-width:992px)
+{
+
+  
+
+    .slider-1
+    {
+        display: none;
+    }
+
+    .slider-2 
+    {
+        display: none;
+    }
+
+    .profile01
+    {
+        display: none;
+    }
+
+
+    .dashboard .options .r-1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .dashboard .options .rc-1
+    {
+        width: 46%;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dashboard .options .rc-2
+    {
+        margin-bottom: 40px;
+        width: 46%;
+    }
+
+}
+
+@media (max-width:767px)
+{
+
+
+    .slider-1
+    {
+        display: none;
+    }
+
+
+    .slider-2 
+    {
+        display: none;
+    }
+
+
+    .profile01
+    {
+        display: none;
+    }
+
+
+    .dashboard .options .r-1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .dashboard .options .rc-1
+    {
+        width: 90%;
+        margin: 0% auto 40px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dashboard .options .rc-2
+    {
+        margin: 0% auto 40px auto;
+        width: 90%;
+    }
+
+
+    .pages .prow1 .pcol1
+    {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .pages .prow1 .pcol2
+    {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .pages .prow2 .pcol3
+    {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .pages .prow2 .pcol4
+    {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
